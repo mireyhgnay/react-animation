@@ -1,25 +1,26 @@
 import styled from 'styled-components';
+import AnimateBox from './components/AnimateBox';
+import VariantsBox from './components/VariantsBox';
+import GesturesBox from './components/GesturesBox';
+import MotionValue from './components/MotionValue';
 
 const Wrapper = styled.div`
   height: 100vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const Box = styled.div`
-  width: 200px;
-  height: 200px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
 `;
 
 export default function App() {
   return (
     <Wrapper>
-      <Box />
+      <AnimateBox />
+      <VariantsBox />
+      <GesturesBox />
+      <div style={{ width: 100, height: 100, backgroundColor: 'white' }}></div>
+      <MotionValue />
+      <div style={{ width: 100, height: 100, backgroundColor: 'white' }}></div>
     </Wrapper>
   );
 }
