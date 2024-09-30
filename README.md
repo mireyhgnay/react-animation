@@ -47,3 +47,17 @@ return (
 <br />
 
 > 직접 만들어보니 디자이너들이 사용하고 함께 협업할 때 쓰면 정말 유용할것같다고 생각이 들었다.
+
+<br />
+
+### View
+
+<img src='./docs/images/view1.gif' width="400" />
+<br />
+<img src='./docs/images/view2.gif' width="400" />
+<br />
+<img src='./docs/images/view3.gif' width="400" />
+<br />
+<img src='./docs/images/view4.gif' width="400" />
+<br />
+<img src='./docs/images/view5.gif' width="400" />
